@@ -71,4 +71,3 @@ if __name__ == "__main__":
         result = graph.invoke({"messages": [("human", user_input)]})
         final = result["messages"][-1]
         print(f"\nTravelBuddy: {final.content}")
-
